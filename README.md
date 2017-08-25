@@ -2,7 +2,7 @@
 Quick script to help scan through SPF records from an input file
 Requires DNSPython (pip install dnspython), see http://www.dnspython.org/ 
 
--as well aslooking for "v=spf1" in a DNS TXT record the script counts the SPF Qalifiers too by quering the results for:
+- as well aslooking for "v=spf1" in a DNS TXT record the script counts the SPF Qalifiers too by quering the results for:
   - "+"	Pass
   - "-"	Fail
   - "~"	SoftFail
