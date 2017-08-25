@@ -1,7 +1,7 @@
 # MassSPF-Scanner
--Quick script to help scan through SPF records from multiple domains
--uses a input file "domains.txt", one domain per line
--Requires DNSPython (pip install dnspython), see http://www.dnspython.org/ 
+- Quick script to help scan through SPF records from multiple domains
+- uses a input file "domains.txt", one domain per line
+- Requires DNSPython (pip install dnspython), see http://www.dnspython.org/ 
 
 - as well aslooking for "v=spf1" in a DNS TXT record the script counts the SPF Qalifiers too by quering the results for:
   - "+"	Pass
