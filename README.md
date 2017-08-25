@@ -2,11 +2,11 @@
 Quick script to help scan through SPF records from an input file
 Requires DNSPython (pip install dnspython), see http://www.dnspython.org/ 
 
--as well aslooking for "v=spf1" in a DNS TXT record the script counts the SPF Qalifiers too by quering the results for 
-"+"	Pass
-"-"	Fail
-"~"	SoftFail
-"?"	Neutral
+-as well aslooking for "v=spf1" in a DNS TXT record the script counts the SPF Qalifiers too by quering the results for:
+- "+"	Pass
+- "-"	Fail
+- "~"	SoftFail
+- "?"	Neutral
 -the script counts "Malformed" as a qualifier that doesnt meet one of the above
 - Counts the number of domains with SPF records
 - Provides a list of domains that are without SPF records
